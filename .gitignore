@@ -27,6 +27,7 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 
 # Mac OS X
 .DS_STORE
