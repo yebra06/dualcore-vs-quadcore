@@ -2,36 +2,36 @@
 
 void Algorithms::bubbleSort(int a[], int size)
 {
-	int i, j, tmp;
-	for (i = 0; i < size; i++)
-	{
-	  for (j = 0; j < size; j++)
-	  {
-	    if (a[j] > a[j+1])
-	    {
-	      tmp = a[j+1];
-	      a[j+1] = a[j];
-	      a[j] = tmp;
-	    }
-	  }
-	}
+  int i, j, tmp;
+  for (i = 0; i < size; i++)
+  {
+    for (j = 0; j < size; j++)
+    {
+      if (a[j] > a[j+1])
+      {
+        tmp = a[j+1];
+        a[j+1] = a[j];
+        a[j] = tmp;
+      }
+    }
+  }
 }
 
 void Algorithms::modifiedBubbleSort(int a[], int size)
 {
-	int i, c, tmp;
-	for (i = 0; i < size; i++)
-	{
-	  for (c = 0; c < size-i; c++)
-	  {
-	    if (a[c] > a[c+1])
-	    {
-	      tmp = a[c];
-	      a[c] = a[c+1];
-	      a[c+1] = tmp;
-	    }
-	  }
-	}
+  int i, c, tmp;
+  for (i = 0; i < size; i++)
+  {
+    for (c = 0; c < size-i; c++)
+    {
+      if (a[c] > a[c+1])
+      {
+        tmp = a[c];
+        a[c] = a[c+1];
+        a[c+1] = tmp;
+      }
+    }
+  }
 }
 
 // merge function from geeks4geeks.com
