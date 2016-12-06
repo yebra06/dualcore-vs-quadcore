@@ -1,0 +1,10 @@
+#C++
+*.o
+*.d
+
+# Mac
+.DS_STORE
+
+# Vim
+*~
+*.swp
