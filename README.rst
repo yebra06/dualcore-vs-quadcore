@@ -15,3 +15,10 @@ To run application::
   $ make
   $ ./run
   $ make clean
+
+****
+TODO
+****
+
+- Parallize algorithms using OpenMP on Linux Ubuntu.
+- Test on different number of cores.
